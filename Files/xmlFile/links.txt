@@ -1,0 +1,5 @@
+xml data - https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.quakeml
+
+-- https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.quakeml
+
+swagger api data - https://petstore.swagger.io/#/
