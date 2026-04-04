@@ -5,7 +5,7 @@
     <classes>
       <class name="day4.ParsingJsonResponsdata">
         <methods>
-          <include name="testJsonResponse"/>
+          <include name="testJsonResponseusingBodyData"/>
         </methods>
       </class> <!-- day4.ParsingJsonResponsdata -->
     </classes>
