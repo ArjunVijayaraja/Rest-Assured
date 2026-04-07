@@ -3,6 +3,7 @@ package day6;
 import org.testng.annotations.Test;
 
 import io.restassured.http.ContentType;
+import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.*;
@@ -14,8 +15,8 @@ import org.json.JSONObject;
 
 public class JSONSchemeValidations {
 	
-	@Test(priority = 1)
-	void jsonSchemaValidation()
+	//@Test(priority = 1)
+	/*void jsonSchemaValidation()
 	{
 		
 		
@@ -36,6 +37,19 @@ public class JSONSchemeValidations {
 			.post("http://localhost:3000/products")
 		.then()
 			.statusCode(201);
+		
+	}
+	*/
+	@Test(priority = 1)
+	void jsonSchemaValidationNew()
+	{
+		
+		given()
+		.when()	
+			.get("http://localhost:3000/products")
+		.then()
+			.assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath("productsjsonscheme.json"))
+			.log().all();
 		
 	}
 
