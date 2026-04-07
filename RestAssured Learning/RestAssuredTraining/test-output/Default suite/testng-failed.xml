@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day5.ParsingXMLResponse">
+      <class name="crud_operations.PaatcchOperation">
         <methods>
-          <include name="testXMLResponse"/>
+          <include name="getDataBeforeUpdate"/>
         </methods>
-      </class> <!-- day5.ParsingXMLResponse -->
+      </class> <!-- crud_operations.PaatcchOperation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

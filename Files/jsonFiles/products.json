@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "product_id": "P1001",
+      "name": "Wireless Mouse",
+      "category": "electronics",
+      "brand": "LogiTech",
+      "price": 25.99,
+      "stock": 150
+    },
+    {
+      "id": "2",
+      "product_id": "P1002",
+      "name": "Bluetooth Headphones",
+      "category": "electronics",
+      "brand": "Sony",
+      "price": 89.99,
+      "stock": 80
+    },
+    {
+      "id": "3",
+      "product_id": "P1003",
+      "name": "Running Shoes",
+      "category": "footwear",
+      "brand": "Nike",
+      "price": 120,
+      "stock": 60
+    },
+    {
+      "id": "4",
+      "product_id": "P1004",
+      "name": "Coffee Maker",
+      "category": "home_appliances",
+      "brand": "Philips",
+      "price": 75.5,
+      "stock": 40
+    },
+    {
+      "id": "5",
+      "product_id": "P1005",
+      "name": "Desk Chair",
+      "category": "furniture",
+      "brand": "Ikea",
+      "price": 150,
+      "stock": 25
+    },
+    {
+      "price": 75000,
+      "product_id": "P1006",
+      "name": "LAPTOP",
+      "id": 6,
+      "category": "electronics",
+      "stock": 10,
+      "brand": "Lenovo"
+    },
+    {
+      "price": 88000,
+      "product_id": "P1007",
+      "name": "WORKBOOK",
+      "category": "electronics",
+      "stock": 2,
+      "brand": "Lenovo",
+      "id": 7
+    },
+    {
+      "price": 90000,
+      "product_id": "P1008",
+      "name": "LAPTOP IdeaPad S540",
+      "category": "electronics",
+      "stock": 2,
+      "brand": "Lenovo",
+      "id": 8
+    }
+  ]
+}

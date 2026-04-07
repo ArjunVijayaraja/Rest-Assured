@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-05T00:35:57 IST" name="Default suite" finished-at="2026-04-05T00:36:02 IST" duration-ms="5107">
+  <suite started-at="2026-04-08T00:39:17 IST" name="Default suite" finished-at="2026-04-08T00:39:22 IST" duration-ms="5228">
     <groups>
     </groups>
-    <test started-at="2026-04-05T00:35:57 IST" name="Default test" finished-at="2026-04-05T00:36:02 IST" duration-ms="5107">
-      <class name="day5.ParsingXMLResponse">
-        <test-method signature="testXMLResponse()[pri:1, instance:day5.ParsingXMLResponse@4944252c]" started-at="2026-04-05T00:35:57 IST" name="testXMLResponse" finished-at="2026-04-05T00:36:02 IST" duration-ms="5052" status="PASS">
+    <test started-at="2026-04-08T00:39:17 IST" name="Default test" finished-at="2026-04-08T00:39:22 IST" duration-ms="5228">
+      <class name="crud_operations.PaatcchOperation">
+        <test-method signature="getDataBeforeUpdate()[pri:1, instance:crud_operations.PaatcchOperation@4944252c]" started-at="2026-04-08T00:39:17 IST" name="getDataBeforeUpdate" finished-at="2026-04-08T00:39:22 IST" duration-ms="4903" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testXMLResponse -->
-      </class> <!-- day5.ParsingXMLResponse -->
+        </test-method> <!-- getDataBeforeUpdate -->
+        <test-method signature="patchData()[pri:2, instance:crud_operations.PaatcchOperation@4944252c]" started-at="2026-04-08T00:39:22 IST" name="patchData" finished-at="2026-04-08T00:39:22 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchData -->
+        <test-method signature="getDataAfterUpdate()[pri:3, instance:crud_operations.PaatcchOperation@4944252c]" started-at="2026-04-08T00:39:22 IST" name="getDataAfterUpdate" finished-at="2026-04-08T00:39:22 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDataAfterUpdate -->
+      </class> <!-- crud_operations.PaatcchOperation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
