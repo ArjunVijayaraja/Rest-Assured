@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day6.JSONSchemeValidations">
+      <class name="basics.Basics">
         <methods>
-          <include name="jsonSchemaValidationNew"/>
+          <include name="updatingTHePlaceUisngTheStoredVariable"/>
         </methods>
-      </class> <!-- day6.JSONSchemeValidations -->
+      </class> <!-- basics.Basics -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
