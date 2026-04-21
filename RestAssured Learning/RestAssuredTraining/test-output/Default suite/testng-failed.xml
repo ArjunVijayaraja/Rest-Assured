@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basics.Basics">
+      <class name="basics.GettingDataFromMockData">
         <methods>
-          <include name="updatingTHePlaceUisngTheStoredVariable"/>
+          <include name="getCoursePrice"/>
         </methods>
-      </class> <!-- basics.Basics -->
+      </class> <!-- basics.GettingDataFromMockData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

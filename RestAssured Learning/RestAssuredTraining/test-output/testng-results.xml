@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-21T23:30:49 IST" name="Default suite" finished-at="2026-04-21T23:31:09 IST" duration-ms="20656">
+  <suite started-at="2026-04-22T00:29:45 IST" name="Default suite" finished-at="2026-04-22T00:29:48 IST" duration-ms="2596">
     <groups>
     </groups>
-    <test started-at="2026-04-21T23:30:49 IST" name="Default test" finished-at="2026-04-21T23:31:09 IST" duration-ms="20656">
-      <class name="basics.Basics">
-        <test-method signature="updatingTHePlaceUisngTheStoredVariable()[pri:3, instance:basics.Basics@4944252c]" started-at="2026-04-21T23:30:49 IST" name="updatingTHePlaceUisngTheStoredVariable" finished-at="2026-04-21T23:31:09 IST" duration-ms="20543" status="PASS">
+    <test started-at="2026-04-22T00:29:45 IST" name="Default test" finished-at="2026-04-22T00:29:48 IST" duration-ms="2596">
+      <class name="basics.GettingDataFromMockData">
+        <test-method signature="getCourseDatas()[pri:1, instance:basics.GettingDataFromMockData@4944252c]" started-at="2026-04-22T00:29:46 IST" name="getCourseDatas" finished-at="2026-04-22T00:29:48 IST" duration-ms="2468" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updatingTHePlaceUisngTheStoredVariable -->
-      </class> <!-- basics.Basics -->
+        </test-method> <!-- getCourseDatas -->
+      </class> <!-- basics.GettingDataFromMockData -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
