@@ -177,7 +177,7 @@ public class WaysToCreatePostRequestBody {
 					FileReader fr = new FileReader(f);
 					JSONTokener jt = new JSONTokener(fr);
 					
-					JSONObject data = new JSONObject(jt);					
+					JSONObject data = new JSONObject( );					
 					
 					
 					 given()
