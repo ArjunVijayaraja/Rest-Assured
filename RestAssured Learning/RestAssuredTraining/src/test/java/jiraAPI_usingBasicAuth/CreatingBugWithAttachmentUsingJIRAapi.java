@@ -9,6 +9,7 @@ import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
 
@@ -49,7 +50,21 @@ public class CreatingBugWithAttachmentUsingJIRAapi {
 			
 			JsonPath js = new JsonPath(res);
 			String issueID = js.getString("id");
+			System.out.println(issueID);
 			
+			
+			//attaching the screeenshot for the created bug
+			
+			given()
+			//.header("Content-Type","application/json")
+			.pathParam("key", issueID)
+			.header("X-Atlassian-Token","no-check")
+			.header("Authorization",token)
+			.multiPart("file",new File("C:\\Users\\arjun\\Pictures\\Screenshots\\Screenshot (706).png"))
+			.when()
+				.post("rest/api/3/issue/{key}/attachments")
+			.then()
+			.log().all().assertThat().statusCode(200);
 			
 			
 			
