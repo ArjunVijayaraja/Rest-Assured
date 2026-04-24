@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dynamicJsonDataHandling22042026.AddDataUsingFataProviders">
+      <class name="jiraAPI_usingBasicAuth.CreatingBugWithAttachmentUsingJIRAapi">
         <methods>
-          <include name="addBook" invocation-numbers="0 1 2 3"/>
+          <include name="createBug"/>
         </methods>
-      </class> <!-- dynamicJsonDataHandling22042026.AddDataUsingFataProviders -->
+      </class> <!-- jiraAPI_usingBasicAuth.CreatingBugWithAttachmentUsingJIRAapi -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

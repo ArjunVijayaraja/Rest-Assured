@@ -1,0 +1,19 @@
+# IDE Settings
+.metadata/
+.settings/
+.project
+.classpath
+
+# Build Folders
+bin/
+target/
+node_modules/
+
+# Logs and Reports
+*.log
+test-results/
+playwright-report/
+.last_survey_prompt.yaml
+
+# Secrets (do not commit)
+config.properties
