@@ -17,3 +17,6 @@ playwright-report/
 
 # Secrets (do not commit)
 config.properties
+API_Contract.txt
+cached target/
+cached test-output/
