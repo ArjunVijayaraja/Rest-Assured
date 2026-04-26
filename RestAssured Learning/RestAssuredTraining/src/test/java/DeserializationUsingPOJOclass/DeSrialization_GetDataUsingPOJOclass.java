@@ -1,4 +1,4 @@
-package serializationAndDeserializationUsingPOJOclass;
+package DeserializationUsingPOJOclass;
 
 import static io.restassured.RestAssured.given;
 
@@ -11,7 +11,7 @@ import io.restassured.RestAssured;
 import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;
 
-public class Serialization_GetDataUsingPOJOclass {
+public class DeSrialization_GetDataUsingPOJOclass {
 	
 	@Test(priority =1)
 	void getCouseDetails() 

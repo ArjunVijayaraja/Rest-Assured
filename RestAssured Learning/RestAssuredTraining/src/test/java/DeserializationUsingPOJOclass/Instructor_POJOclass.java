@@ -1,4 +1,4 @@
-package serializationAndDeserializationUsingPOJOclass;
+package DeserializationUsingPOJOclass;
 
 public class Instructor_POJOclass {
 	private String url;

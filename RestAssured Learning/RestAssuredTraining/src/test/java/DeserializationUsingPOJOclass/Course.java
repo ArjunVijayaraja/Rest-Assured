@@ -1,4 +1,4 @@
-package serializationAndDeserializationUsingPOJOclass;
+package DeserializationUsingPOJOclass;
 
 public class Course {
 	

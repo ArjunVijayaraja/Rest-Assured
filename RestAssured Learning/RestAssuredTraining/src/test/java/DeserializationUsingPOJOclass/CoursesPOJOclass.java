@@ -1,4 +1,4 @@
-package serializationAndDeserializationUsingPOJOclass;
+package DeserializationUsingPOJOclass;
 
 import java.util.List;
 
